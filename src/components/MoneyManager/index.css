@@ -75,9 +75,7 @@
   border-radius: 25px;
   display: flex;
   flex-direction: column;
-  box-shadow:
-    0px 0px 8px #ede9fe,
-    -0px -0px 8px #ede9fe;
+  box-shadow: 0px 0px 8px #ede9fe, -0px -0px 8px #ede9fe;
 }
 
 .input-container {
@@ -102,9 +100,7 @@ select {
   border: none;
   border-radius: 4px;
   margin-bottom: 4%;
-  box-shadow:
-    0px 0px 5px #cffafe,
-    -0px -0px 5px #cffafe;
+  box-shadow: 0px 0px 5px #cffafe, -0px -0px 5px #cffafe;
 }
 
 input:focus,
@@ -146,9 +142,7 @@ ul li {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  box-shadow:
-    0px 0px 5px #cffafe,
-    -0px -0px 5px #cffafe;
+  box-shadow: 0px 0px 5px #cffafe, -0px -0px 5px #cffafe;
 }
 
 ul li p {
