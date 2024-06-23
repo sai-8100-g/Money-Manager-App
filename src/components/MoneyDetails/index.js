@@ -9,15 +9,15 @@ const TransactionHistory = props => {
   return (
     <li>
       <p>{title}</p>
-      <p>{amount}</p>
+      <p>Rs {amount}</p>
       <p>{type}</p>
-      <p>
+      <button type="button" onClick={deleteListItem} data-testid="delete">
         <img
           src="https://assets.ccbp.in/frontend/react-js/money-manager/delete.png "
           alt="delete"
-          onClick={deleteListItem}
+          data-testid="delete"
         />
-      </p>
+      </button>
     </li>
   )
 }

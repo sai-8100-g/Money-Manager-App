@@ -178,7 +178,7 @@ class MoneyManager extends Component {
         <div className="inputs-history-container">
           <div className="input-container">
             <h1>Add Transaction</h1>
-            <label htmlFor="title">Title</label>
+            <label htmlFor="title">TITLE</label>
             {tittleErrorMsg && <p className="error">{tittleErrorMsg}</p>}
             <input
               id="title"
@@ -196,7 +196,7 @@ class MoneyManager extends Component {
               onChange={this.amountInput}
               value={amountVal}
             />
-            <label htmlFor="type">Type</label>
+            <label htmlFor="type">TYPE</label>
             <select id="type" onChange={this.selectInput} value={options}>
               {transactionTypeOptions.map(eachObj => (
                 <TransactionItem optionObj={eachObj} key={eachObj.optionId} />
